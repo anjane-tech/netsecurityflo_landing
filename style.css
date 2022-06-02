@@ -79,8 +79,26 @@ html{
         padding-right: 0px;
     }
 
+    .dp{
+        flex-direction: column;
+    }
+
+    .dpr{
+        display: flex;
+    }
+
     .topnav{
         flex-direction: column;
+    }
+
+    .sec4{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    iframe{
+        max-width: 350px;
+        width: 350px;
     }
 
   .topnav a:not(:first-child) {display: none;}
@@ -90,6 +108,15 @@ html{
   }
 }
 
+.dp{
+    display: flex;
+    width: 70%;
+}
+
+.dpr{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .sidehead{
     font-size: 24px;
@@ -157,7 +184,7 @@ nav{
 
   .pl25{
     padding-right: 25px;
-    
+
 }
 
 .hero{
@@ -305,10 +332,10 @@ p.navhead{
 .sec4{
     max-width: 100%;
     min-height: 100vh;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     background-color: #161E54;
     padding-top: 50px;
     color: white;
