@@ -33,6 +33,15 @@ html{
 
 }
 
+.ssec{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
 
 
 .topnav .icon {
@@ -79,6 +88,11 @@ html{
     float: right;
     display: block;
   }
+}
+
+
+.sidehead{
+    font-size: 24px;
 }
 
 @media screen and (max-width: 600px) {

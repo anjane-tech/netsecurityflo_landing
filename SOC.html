@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>NetSecurityFlo</title>
+
+
+
+
+    <style>
+        
+        </style>
+</head>
+
+<body>
+    <!-- <nav>
+ 
+        <a href="" style="display: flex; justify-content: center; align-items: center;">
+            <img src="logo.png" alt="" style="margin-right: 15px; height: 50px;">
+            <p class="navhead">NetSecurityFlo</p>
+        </a>
+        <a href="#contact" class="nbtn">
+            <div class="navbtn">get in touch</div>
+        </a>
+    </nav> -->
+
+    <div class="topnav" id="myTopnav" style="display:flex; justify-content:space-around; align-items: center;" >
+        <a href="" style="display: flex; justify-content: center; align-items: center;">
+            <img src="logo.png" alt="" style="height: 45px;">
+            <p class="navhead">NetSecurityFlo</p>
+        </a>
+        <div>
+        <a href="#About">About</a>
+        <a href="#services">Services</a>
+        <a href="/training.html">Training</a>
+        <a href="#about">Blog/Press</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#contact" class="nbtn">
+            <div class="navbtn">contact</div>
+        </a>
+      </div>
+    </div>
+    <div class="hero" style="display: flex; align-items:center; justify-content:center;">
+        <video autoplay muted loop id="myVideo">
+            <source src="network_background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        <div class="cont" style="width: fit-content;">
+        <div class="lhead orange" style="font-size: 42px;" >
+            SOC as Service
+            <!-- <p style="font-size: 18px; font-weight:normal; margin-top: 5px;">Securing the network</p> -->
+        </div>
+        <br>
+        <!-- <div class="lsubhead white">
+            <p>
+                NetSecurityflo is a Managed Network & Security Company that is a proven to detect network & cyber threats faster and precise across pyhsical,digital and cloud infrastructure . We provide round the clock monitoring, detection and response to identify threats before a breach occurs.We provide consultingservices for network & security infrastructure.
+            </p>
+        </div> -->
+        </div>
+    </div>
+
+    <div class="sec2">
+        <div class="head dblue twhite">
+            SOC
+        </div><br>
+        <img src="network noc.jpg" alt="" style="width: 350px;">
+        <br>
+        <div class="ssec" style="flex-direction: coloumn;">
+            <p class="sidehead"><b>Fully Managed Virtual SOC</b></p>
+        <div class="subhead" style="font-weight: normal;">
+            Monthly Subscription Based Service where we own, manage and monitor SOC and SIEM product for your organization round the clock  24/7/365
+            
+        </div>
+        <p class="sidehead"><b>Hybrid/CO-Managed SOC</b></p>
+        <div class="subhead" style="font-weight: normal;">
+            Customer owns the SIEM/Security Solution, we co-manage and monitor it 24x7 with our SOC
+        </div>
+        <p class="sidehead"><b>Customized/Special SOC</b></p>
+        <div class="subhead" style="font-weight: normal;">
+            We will work with you to build a unique solution that meets your needs, budget, and timelines.            
+        </div>
+        
+    </div>
+    </div>
+
+
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+
+        </script>
+
+
+</body>
+</html>
