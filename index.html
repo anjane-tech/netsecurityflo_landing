@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>NetSecurityFlo</title>
@@ -19,7 +20,7 @@
 </head>
 
 <body>
-    <nav>
+    <!-- <nav>
  
         <a href="" style="display: flex; justify-content: center; align-items: center;">
             <img src="logo.png" alt="" style="margin-right: 15px; height: 50px;">
@@ -28,11 +29,35 @@
         <a href="#contact" class="nbtn">
             <div class="navbtn">get in touch</div>
         </a>
-    </nav>
+    </nav> -->
+
+    <div class="topnav" id="myTopnav" style="display:flex; justify-content:space-around; align-items: center;" >
+        <a href="" style="display: flex; justify-content: center; align-items: center;">
+            <img src="logo.png" alt="" style="height: 45px;">
+            <p class="navhead">NetSecurityFlo</p>
+        </a>
+        <div>
+        <a href="#About">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/services.html#TRAIN">Training</a>
+        <a href="#about">Blog/Press</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#contact" class="nbtn">
+            <div class="navbtn">contact</div>
+        </a>
+      </div>
+    </div>
     <div class="hero">
+        <video autoplay muted loop id="myVideo">
+            <source src="network_background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
         <div class="cont">
         <div class="lhead orange">
-            Securing the Network
+            NetSecurityFlo
+            <p style="font-size: 18px; font-weight:normal; margin-top: 5px;">Securing the network</p>
         </div>
         <br>
         <div class="lsubhead white">
@@ -46,19 +71,28 @@
     <div class="sec2">
         <div class="head dblue twhite">
             Quality SOC &  NOC Services at low cost 
-        </div><br><br><br>
+        </div><br>
+        
+        <br>
+        <div class="sec">
+            <img src="network noc.jpg" alt="" style="width: 350px;">
         <div class="subhead">
-            24 x 7 eyes-on-glass security & network monitoring  ( NOC/ 24 * 7)<br><br>
-            Realiable engineers  working around the clock utilizing machine learning and advanced AI techniques.<br><br>
-            Detects emerging and evolving threats with continuously monitoring and threat intelligence<br><br>
-            Effortless client onboarding <br><br>
-            Monitoring of advanced network & cyber threats across on-premises networks, cloud environments, applications, and endpoints.<br><br>
-            No Contracts<br><br>
-            Flexible subscription options<br>
+            👉 24 x 7 eyes-on-glass security & network monitoring  ( NOC/ 24 * 7)<br><br>
+            👉 Realiable engineers  working around the clock utilizing machine learning and advanced AI techniques.<br><br>
+            👉 Detects emerging and evolving threats with continuously monitoring and threat intelligence<br><br>
+            👉 Effortless client onboarding <br><br>
+            👉 Monitoring of advanced network & cyber threats across on-premises networks, cloud environments, applications, and endpoints.<br><br>
+            👉 No Contracts<br><br>
+            👉 Flexible subscription options<br>
         </div>
     </div>
+    </div>
 
-    <div class="ahero">
+    <div class="ahero" id="About">
+        <video autoplay muted loop id="myVideo">
+            <source src="server_background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
         <div class="cont">
         <div class="lhead dblue twhite">
             About NetSecurityFlo 
@@ -76,80 +110,30 @@
         </div>
     </div>
 
-    <div class="sec3">
+    <div class="sec3 white">
         <div class="head dblue twhite">
             Services
         </div><br><br>
-        <div class="sides">
-            <button class="accordion">SOC as Service</button>
-            <div class="panel">
-            <p>
-                <b>Fully Managed Virtual SOC</b> Monthly Subscription Based Service where we own, manage and monitor SOC and SIEM product for your organization round the clock  24/7/365
-                <br>
-                <b>Hybrid/CO-Managed SOC</b> Customer owns the SIEM/Security Solution, we co-manage and monitor it 24x7 with our SOC
-                <br>
-                <b>Customized/Special SOC</b> We will work with you to build a unique solution that meets your needs, budget, and timelines.
-            </p>
+        <div class="grd">
+            <div class="pl25">
+            <div class="orange tb2">
+                <img src="socas.png" alt="" style="width: 250px; height: 250px;">
+                <a href="/services.html#SOCAS"><p style="padding-bottom: 15px; font-weight: bold;" class="tb2">SOC as Service</p></a>
             </div>
-            <br><br>
-            <button class="accordion">Network as Service</button>
-            <div class="panel">
-            <p>
-                <b>24 x 7 eyes-on-glass network monitoring  ( NOC/ 24 * 7)</b>
-                Proactive alerting and response
-                <br>
-                Reliable Staff
-                <br>
-                Continuous device monitoring
-                <br>
-                Identifying anamolies 
-                <br>
-                Investigation of alerts
-                <br>
-                Advanced supports for traiging Tier 1, Tier 2 and Tier 3 issues
-            </p>
+            <div class="orange tb2">
+                <img src="nas.png" alt="" style="width: 250px;height: 250px;">
+                                <a href="/services.html#NAS"><p style="padding-bottom: 15px; font-weight: bold;" class="tb2">Network as Service</p></a>
+            </div></div>
+            <div class="pl25">
+            <div class="orange tb2">
+                <img src="mas.png" alt="" style="width: 250px;height: 250px;">
+                                <a href="/services.html#MAS"><p style="padding-bottom: 15px; font-weight: bold;" class="tb2">Managed Services</p></a>
             </div>
-            <br><br>
-            <button class="accordion">Managed Services</button>
-            <div class="panel">
-            <p>
-                <b>Firewall Management</b>
-                <p>
-                    Validate Firewall Configuration against Services <br>
-                    Backup and Restore of Firewall Configurations with Daily/Weekly backup<br>
-                    Patch firewall with latest hotfixes and signature updates<br>
-                    Upgrade the Firewall with latest release<br>
-                    Tweaking firewall Configurations  &  Troubleshooting any physical or connecitvity issues through firewalls<br>
-                    Work with vendor to fix any hardware or software issues<br>
-                </p>
-                <b>Network Management</b>
-                <p>
-                    Network Design & Architect custom Solution <br>
-                    Network Automation<br>
-                    Network Monitor<br>
-                    Network Vulnerability Assessment<br>
-                </p>
-                <b>SDWAN Design & Solution</b><br><br>
-                <b>DDOS & Cloud Security Service</b><br><br>
-                <b>Network Testing and Validation Solution</b>
-                <p>
-                    Design Customer specific environment and test all the services
-                </p>  
-            </p>
+            <div class="orange tb2">
+                <img src="trai.png" alt="" style="width: 250px;height: 250px;">
+                                <a href="/services.html #TRAIN"><p style="padding-bottom: 15px; font-weight: bold;" class="tb2">Training</p></a>
             </div>
-
-            <br><br>
-            <button class="accordion">Training</button>
-            <div class="panel">
-            <p>
-            <b>Cyber Security<br>
-                Networking<br>
-                SDWAN<br>
-                Firewall<br>
-            </b>
-            </p>
-            </div>  <br><br>
-
+        </div>
         </div>
     </div>
 
@@ -197,6 +181,16 @@
             } 
           });
         }
+
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+
         </script>
 
 

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>NetSecurityFlo</title>
+
+
+
+
+    <style>
+        
+        </style>
+</head>
+
+<body>
+    <!-- <nav>
+ 
+        <a href="" style="display: flex; justify-content: center; align-items: center;">
+            <img src="logo.png" alt="" style="margin-right: 15px; height: 50px;">
+            <p class="navhead">NetSecurityFlo</p>
+        </a>
+        <a href="#contact" class="nbtn">
+            <div class="navbtn">get in touch</div>
+        </a>
+    </nav> -->
+
+    <div class="topnav" id="myTopnav" style="display:flex; justify-content:space-around; align-items: center;" >
+        <a href="/" style="display: flex; justify-content: center; align-items: center;">
+            <img src="logo.png" alt="" style="height: 45px;">
+            <p class="navhead">NetSecurityFlo</p>
+        </a>
+        <div>
+        <a href="/#About">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/">Training</a>
+        <a href="/">Blog/Press</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#contact" class="nbtn">
+            <div class="navbtn">contact</div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="sec2" id="SOCAS">
+        <div class="head dblue twhite">
+            SOC as Service
+        </div><br>
+        
+        <br>
+        <div class="sec" >
+            <img src="socas.png" alt="" style="width: 350px;">
+        <div class="subhead">
+            <b>👉 Fully Managed Virtual SOC</b> Monthly Subscription Based Service where we own, manage and monitor SOC and SIEM product for your organization round the clock  24/7/365
+            <br><br>
+            <b>👉 Hybrid/CO-Managed SOC</b> Customer owns the SIEM/Security Solution, we co-manage and monitor it 24x7 with our SOC
+            <br><br>
+            <b>👉 Customized/Special SOC</b> We will work with you to build a unique solution that meets your needs, budget, and timelines.
+        
+        </div>
+    </div>
+    </div>
+
+    <div class="sec2" id="NAS">
+        <div class="head dblue twhite">
+            Network as Service
+        </div><br>
+        
+        <br>
+        <div class="sec">
+            <img src="nas.png" alt="" style="width: 350px;">
+        <div class="subhead">
+            <b style="font-size: 18px;">👉 24 x 7 eyes-on-glass network monitoring  ( NOC/ 24 * 7)</b><br><br>
+            👉 Proactive alerting and response
+            <br>
+            👉 Reliable Staff
+            <br>
+            👉 Continuous device monitoring
+            <br>
+            👉 Identifying anamolies 
+            <br>
+            👉 Investigation of alerts
+            <br>
+            👉 Advanced supports for traiging Tier 1, Tier 2 and Tier 3 issues
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="sec2" id="MAS">
+        <div class="head dblue twhite">
+            Managed Services 
+        </div><br>
+        
+        <br>
+        <div class="sec">
+            <img src="nas.png" alt="" style="width: 350px;">
+        <div class="subhead"><b>👉 Firewall Management</b>
+            <p>
+                Validate Firewall Configuration against Services <br>
+                Backup and Restore of Firewall Configurations with Daily/Weekly backup<br>
+                Patch firewall with latest hotfixes and signature updates<br>
+                Upgrade the Firewall with latest release<br>
+                Tweaking firewall Configurations  &  Troubleshooting any physical or connecitvity issues through firewalls<br>
+                Work with vendor to fix any hardware or software issues<br>
+            </p>
+            <b>👉 Network Management</b>
+            <p>
+                Network Design & Architect custom Solution <br>
+                Network Automation<br>
+                Network Monitor<br>
+                Network Vulnerability Assessment<br>
+            </p>
+            <b>👉 SDWAN Design & Solution</b><br><br>
+            <b>👉 DDOS & Cloud Security Service</b><br><br>
+            <b>👉 Network Testing and Validation Solution</b>
+            <p>
+                Design Customer specific environment and test all the services
+            </p>
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="sec2" id="TRAIN">
+        <div class="head dblue twhite">
+            Training
+        </div><br>
+        
+        <br>
+        <div class="sec">
+            <img src="trai.png" alt="" style="width: 350px;">
+        <div class="subhead" style="font-size: 24px;">
+            <b>👉 Cyber Security<br>
+                👉 Networking<br>
+                👉 SDWAN<br>
+                👉 Firewall<br>
+            </b>
+            </div>
+    </div>
+    </div>
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+
+        </script>
+
+
+</body>
+</html>
