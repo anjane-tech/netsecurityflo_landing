@@ -31,24 +31,49 @@
         </a>
     </nav> -->
 
-    <div class="topnav" id="myTopnav" style="display:flex; justify-content:space-around; align-items: center;" >
+    <div class="topnav" id="myTopnav" style="display: flex; justify-content: space-evenly; align-items: center;">
         <a href="./" style="display: flex; justify-content: center; align-items: center;">
             <img src="logo.png" alt="" style="height: 45px;">
-            <p class="navhead">NetSecurityFlo</p>
+            <div class="avin">
+            <p class="navhead"><b style="font-size:24px;">NetSecurityFlo</b></p>
+            <p style="color: #ffb31d; font-size: 12px;margin-top: 0px;margin-bottom: 0px;">24 x 7 eyes-on-glass security & network monitoring</p>
+            </div>
         </a>
-        <div>
-        <a href="./#About">About</a>
-        <a href="./#services">Services</a>
-        <a href="/training.html">Training</a>
-        <a href="./#about">Blog/Press</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-        <a href="./#contact" class="nbtn">
-            <div class="navbtn">contact</div>
-        </a>
+        
+        <!-- <div style="width: 45%;">
+            <p> </p>
+        </div> -->
+        
+        <div class="dropdown">
+          <button class="dropbtn">Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./SOC.html" style="color: #222;">SOC as a Service</a>
+            <a href="./NAS.html" style="color: #222;">NOC as a Service</a>
+            <a href="./MAS.html" style="color: #222;">Managed Services</a>
+            <a href="./training.html" style="color: #222;">Training</a>
+          </div>
+        </div>
+        
+        <a href="./#about">About</a>
+        <a href="./training.html">Training</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Resources
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#" style="color: #222;">Blog</a>
+              <a href="#" style="color: #222;">Events</a>
+              <a href="#" style="color: #222;">Press Release</a>
+            </div>
+          </div>
+
+        <a href="./contact.html">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-    </div>
+
     <div class="hero" style="display: flex; align-items:center; justify-content:center;">
         <video autoplay muted loop id="myVideo">
             <source src="network_background.mp4" type="video/mp4">
@@ -72,19 +97,46 @@
         <div class="head dblue twhite" style="text-align: left;">
             We also Provide various training
         </div><br>
-        <img src="network noc.jpg" alt="" style="width: 350px;">
-        <br>
-        <div class="subhead" style="font-size: 24px;">
-            <b>👉 Cyber Security<br>
-                👉 Networking<br>
-                👉 SDWAN<br>
-                👉 Firewall<br>
+        <div class="dp fe" style="justify-content: space-evenly;">
+        <img src="network noc.jpg" alt="" style="width: 250px;">
+        
+        <div class="subhead" style="font-size: 18px;">
+            <ul>
+                <li>Cyber Security</li>
+                <li>Networking</li>
+                <li>SDWAN</li>
+                <li>Firewall</li>
+            </ul>
             </b>
             </div> 
+        </div>
     </div>
     </div>
 
-
+    <div class="footer">
+        <img src="logo.png" alt="" style="width: 75px;margin-bottom: 10px;">
+        <div class="links">
+            <ul style="margin-top: 0px;">
+                <a href="./"><li>Home</li></a>
+                <li>></li>
+                <a href="./#about"><li>About</li></a>
+                <li>></li>
+                <a href="./services.html"><li>Services</li></a>
+                <li>></li>
+                <a href="./training.html"><li>Training</li></a>
+                <li>></li>
+                <a href="./"><li>Resources</li></a>
+                <li>></li>
+                <a href="./contact.html"><li>Contact</li></a>
+            </ul>
+        </div>
+        <div style="margin-bottom: 10px;">
+           <a href="mailto:info@netsecurityflo.com">Mail ID : info@netsecurityflo.com</a> 
+        </div>
+        <div style="margin-bottom: 10px;">
+            © NetSecurityFlo 2022
+        </div>
+    </div>
 
 
     <script>

@@ -31,24 +31,49 @@
         </a>
     </nav> -->
 
-    <div class="topnav" id="myTopnav" style="display:flex; justify-content:space-around; align-items: center;" >
+    <div class="topnav" id="myTopnav" style="display: flex; justify-content: space-evenly; align-items: center;">
         <a href="./" style="display: flex; justify-content: center; align-items: center;">
             <img src="logo.png" alt="" style="height: 45px;">
-            <p class="navhead">NetSecurityFlo</p>
+            <div class="avin">
+            <p class="navhead"><b style="font-size:24px;">NetSecurityFlo</b></p>
+            <p style="color: #ffb31d; font-size: 12px;margin-top: 0px;margin-bottom: 0px;">24 x 7 eyes-on-glass security & network monitoring</p>
+            </div>
         </a>
-        <div>
-        <a href="./#About">About</a>
-        <a href="./#services">Services</a>
+        
+        <!-- <div style="width: 45%;">
+            <p> </p>
+        </div> -->
+        
+        <div class="dropdown">
+          <button class="dropbtn">Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./SOC.html" style="color: #222;">SOC as a Service</a>
+            <a href="./NAS.html" style="color: #222;">NOC as a Service</a>
+            <a href="./MAS.html" style="color: #222;">Managed Services</a>
+            <a href="./training.html" style="color: #222;">Training</a>
+          </div>
+        </div>
+        
+        <a href="./#about">About</a>
         <a href="./training.html">Training</a>
-        <a href="./#about">Blog/Press</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-        <a href="#contact" class="nbtn">
-            <div class="navbtn">contact</div>
-        </a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Resources
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#" style="color: #222;">Blog</a>
+              <a href="#" style="color: #222;">Events</a>
+              <a href="#" style="color: #222;">Press Release</a>
+            </div>
+          </div>
+
+        <a href="./contact.html">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-    </div>
+
     <div class="hero" style="display: flex; align-items:center; justify-content:center;">
         <video autoplay muted loop id="myVideo">
             <source src="network_background.mp4" type="video/mp4">
@@ -73,42 +98,71 @@
             Managed Services 
         </div><br>
         <br>
-        <div class="dp">
+        <div class="dp fe" style="justify-content: flex-start;">
             <img src="mas.png" alt="" style="width: 250px;margin: 25px;">  
             <div>
-        <p class="sidehead">Firewall Management</p>
-        <p class="sidehead">👉 Validate Firewall Configuration against Services <br>
-             👉 Backup and Restore of Firewall Configurations with Daily/Weekly backup<br>
-             👉 Patch firewall with latest hotfixes and signature updates<br>
-             👉 Upgrade the Firewall with latest release<br>
-             👉 Tweaking firewall Configurations  &  Troubleshooting any physical or connecitvity issues through firewalls<br>
-             👉 Work with vendor to fix any hardware or software issues<br></p>
+        <p class="sidehead"><b>Firewall Management</b></p>
+        <ul>
+            <li>Validate Firewall Configuration against Services</li>
+            <li>Backup and Restore of Firewall Configurations with Daily/Weekly backup</li>
+            <li>Patch firewall with latest hotfixes and signature updates</li>
+            <li>Upgrade the Firewall with latest release</li>
+            <li>Tweaking firewall Configurations & Troubleshooting any physical or connecitvity issues through firewalls</li>
+            <li>Work with vendor to fix any hardware or software issues</li>
+        </ul>
             </div>
         </div>
-            <div class="dpr">
+            <div class="dp fe" style="justify-content: flex-start;">
              <img src="mas.png" alt="" style="width: 250px;margin: 25px;">   
             <div>
-             <p class="sidehead">Network Management</p>
-             <p class="sidehead">👉 Network Design & Architect custom Solution <br>
-                👉 Network Automation<br>
-                👉 Network Monitor<br>
-                👉 Network Vulnerability Assessment<br></p>
+             <p class="sidehead"><b>Network Management</b></p>
+             <ul>
+                 <li>Network Design & Architect custom Solution</li>
+                 <li>Network Automation</li>
+                 <li>Network Monitor</li>
+                 <li>Network Vulnerability Assessment</li>
+             </ul>
              </div>
             </div>
-             <div class="dp">
+             <div class="dp fe" style="justify-content: flex-start;">
                 <img src="mas.png" alt="" style="width: 250px; margin: 25px;">  
                 <div>
-             <p class="sidehead">Other Managed Services</p>
-            <p class="sidehead">👉 SDWAN Design & Solution</p>
-            <p class="sidehead">👉 DDOS & Cloud Security Service</p>
-            <p class="sidehead">👉 Network Testing and Validation Solution</p>
-            <p class="sidehead">👉 Design Customer specific environment and test all the services</p>
+                    <p class="sidehead"><b>Other Managed Services</b></p>
+             <ul>
+                 <li>SDWAN Design & Solution</li>
+                 <li>DDOS & Cloud Security Service</li>
+                 <li>Network Testing and Validation Solution</li>
+                 <li>Design Customer specific environment and test all the services</li>
+             </ul>
         </div>
     </div>
     </div>
     </div>
 
-
+    <div class="footer">
+        <img src="logo.png" alt="" style="width: 75px;margin-bottom: 10px;">
+        <div class="links">
+            <ul style="margin-top: 0px;">
+                <a href="./"><li>Home</li></a>
+                <li>></li>
+                <a href="./#about"><li>About</li></a>
+                <li>></li>
+                <a href="./services.html"><li>Services</li></a>
+                <li>></li>
+                <a href="./training.html"><li>Training</li></a>
+                <li>></li>
+                <a href="./"><li>Resources</li></a>
+                <li>></li>
+                <a href="./contact.html"><li>Contact</li></a>
+            </ul>
+        </div>
+        <div style="margin-bottom: 10px;">
+           <a href="mailto:info@netsecurityflo.com">Mail ID : info@netsecurityflo.com</a> 
+        </div>
+        <div style="margin-bottom: 10px;">
+            © NetSecurityFlo 2022
+        </div>
+    </div>
 
 
     <script>
