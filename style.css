@@ -270,15 +270,20 @@ html{
 
 }
 
+
+
 .footer{
     background-color: #161E54;
-    min-height: 30vh;
+    min-height: 40vh;
     width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    
+    flex-wrap: wrap;
 
 }
 
@@ -545,6 +550,7 @@ p.navhead{
     justify-content: center;
     width: 100%;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .sec3{
