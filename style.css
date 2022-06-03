@@ -185,6 +185,11 @@ html{
 
     .fe{
         line-height: normal;
+        
+    }
+
+    .subhead{
+        font-size: 18px;
     }
 
     #myVideo {
@@ -211,6 +216,10 @@ html{
         display: flex;
     }
 
+    #myVideo{
+        transform: rotate(90deg);
+    }
+
     .topnav{
         flex-direction: column;
     }
@@ -218,6 +227,10 @@ html{
     .sec4{
         flex-direction: column;
         text-align: center;
+    }
+
+    li{
+        font-size: 16px;
     }
 
     iframe{
@@ -233,6 +246,8 @@ html{
 }
 
 
+
+
 .links li{
     /* float: left; */
     display: inline-block;
@@ -245,6 +260,8 @@ html{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     width: 70vw;
     line-height: 2.2;
+    font-size: 22px;
+
 }
 
 .footer{
@@ -273,9 +290,9 @@ html{
     align-items: center;
 }
 
-.sidehead{
+/* .sidehead{
     font-size: 24px;
-}
+} */
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -328,14 +345,18 @@ nav{
     height: 100vh   !important;  
           */
     /* max-width: 100vw; */
+    
     max-height: 100vh;
     width: 100%;
     height: auto;
-    /* max-height: 100%; */
+    
     position: absolute;
     top: 0;
     left: 0;
     object-fit: cover;
+     
+    
+    
   }
 
   .pl25{
