@@ -54,6 +54,7 @@ html{
   .dropdown-content {
     display: none;
     position: absolute;
+    flex-direction: column;
     background-color: #FFB31D;
     /* color: #222222; */
     min-width: 160px;
@@ -182,6 +183,9 @@ html{
         align-items: center;
     }
 
+    .fe{
+        line-height: normal;
+    }
 
     #myVideo {
         display: none;
@@ -240,6 +244,7 @@ html{
     padding: 25px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     width: 70vw;
+    line-height: 2.2;
 }
 
 .footer{
@@ -289,6 +294,7 @@ html{
 
 body{
     margin: 0px;
+    line-height: 1.6;
 }
 
 a{
@@ -390,7 +396,7 @@ input[type=text], select, textarea {
     color: #222;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    
     cursor: pointer;
   }
   
@@ -451,7 +457,7 @@ input[type=text], select, textarea {
 
 .b2{
     background-color: #222;
-    border-radius: 9px;
+    padding: 15px;
 }
 
 .tb2{
