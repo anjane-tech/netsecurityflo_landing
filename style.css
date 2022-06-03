@@ -246,7 +246,13 @@ html{
 }
 
 
+.subhead li{
+    margin-bottom: 15px;
+}
 
+.fe li{
+    margin-bottom: 15px;
+}
 
 .links li{
     /* float: left; */
@@ -259,7 +265,7 @@ html{
     padding: 25px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     width: 70vw;
-    line-height: 2.2;
+    /* line-height: 2.2; */
     font-size: 22px;
 
 }
