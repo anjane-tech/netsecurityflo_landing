@@ -73,7 +73,7 @@ html{
   }
   
   .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
+    /* background-color: #555; */
     color: white;
     text-align: center;
   }
@@ -390,7 +390,7 @@ nav{
     
     max-width: 100%;
     min-height: 100vh;
-    align-items: flex-start;
+    align-items: flex-start!important;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -492,10 +492,17 @@ input[type=text], select, textarea {
     margin-top: 15px;
     /* border-radius: 9px; */
     font-weight: bold;
+    align-items: flex-start;
 }
 
 .twhite{
     color: white;
+}
+
+
+
+.torange{
+    color: #FFB31D;
 }
 
 .b2{

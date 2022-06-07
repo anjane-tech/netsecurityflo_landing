@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
 
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +33,26 @@
         </a>
     </nav> -->
 
+    <!-- <div class="topnav" id="myTopnav" style="display:flex; justify-content:space-around; align-items: center;" >
+        
+        <a href="" style="display: flex; justify-content: center; align-items: center;">
+            <img src="logo.png" alt="" style="height: 45px;">
+            <p class="navhead"><b style="margin-left: 10px; font-size:24px;">NetSecurityFlo</b></p>
+        </a>
+        <div>
+        <a href="#About">About</a>
+        <a href="#services">Services</a>
+        <a href="./training.html">Training</a>
+        <a href="#about">Blog/Press</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#contact" class="nbtn">
+            <div class="navbtn">contact</div>
+        </a>
+      </div>
+    </div> -->
+
     <div class="topnav" id="myTopnav" style="display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap;">
         <a href="./" style="display: flex; justify-content: center; align-items: center;">
             <img src="logo.png" alt="" style="height: 45px;">
@@ -47,99 +67,62 @@
         </div> -->
         
         <div class="dropdown">
-            <button class="dropbtn"><a href="./services.html">Services
+          <button class="dropbtn"><a href="./services.html">Services
+            <i class="fa fa-caret-down"></i></a>
+          </button>
+          <div class="dropdown-content">
+            <a href="./SOC.html" style="color: #222;">SOC as a Service</a>
+            <a href="./NAS.html" style="color: #222;">NOC as a Service</a>
+            <a href="./MAS.html" style="color: #222;">Managed Services</a>
+            <a href="./training.html" style="color: #222;">Training</a>
+          </div>
+        </div>
+        
+        <a href="./about.html">About</a>
+        <a href="./training.html">Training</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn"><a href="./resources.html">Resources
               <i class="fa fa-caret-down"></i></a>
             </button>
             <div class="dropdown-content">
-              <a href="./SOC.html" style="color: #222;">SOC as a Service</a>
-              <a href="./NAS.html" style="color: #222;">NOC as a Service</a>
-              <a href="./MAS.html" style="color: #222;">Managed Services</a>
-              <a href="./training.html" style="color: #222;">Training</a>
+              <a href="./resources.html" style="color: #222;">Blog</a>
+              <a href="./resources.html" style="color: #222;">Events</a>
+              <a href="./resources.html" style="color: #222;">Press Release</a>
             </div>
           </div>
-          
-          <a href="./about.html">About</a>
-          <a href="./training.html">Training</a>
-          
-          <div class="dropdown">
-              <button class="dropbtn"><a href="./resources.html">Resources
-                <i class="fa fa-caret-down"></i></a>
-              </button>
-              <div class="dropdown-content">
-                <a href="./resources.html" style="color: #222;">Blog</a>
-                <a href="./resources.html" style="color: #222;">Events</a>
-                <a href="./resources.html" style="color: #222;">Press Release</a>
-              </div>
-            </div>
 
         <a href="./contact.html">Contact</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
 
-    <div class="hero" style="display: flex; align-items:center; justify-content:center;">
+
+
+
+
+    <div class="ahero" id="about">
         <video autoplay muted loop id="myVideo">
-            <source src="network_background.mp4" type="video/mp4">
+            <source src="server_background.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
           </video>
-        <div class="cont" style="width: fit-content;">
-        <div class="lhead orange" style="font-size: 42px;" >
-            Managed Services 
-            <!-- <p style="font-size: 18px; font-weight:normal; margin-top: 5px;">Securing the network</p> -->
+        <div class="cont">
+        <div class="lhead dblue torange">
+            About NetSecurityFlo 
         </div>
         <br>
-        <!-- <div class="lsubhead white">
-            <p>
-                NetSecurityflo is a Managed Network & Security Company that is a proven to detect network & cyber threats faster and precise across pyhsical,digital and cloud infrastructure . We provide round the clock monitoring, detection and response to identify threats before a breach occurs.We provide consultingservices for network & security infrastructure.
-            </p>
-        </div> -->
+        <div class="lsubhead" style="background-color: rgba(0, 0, 0, 0.57); width: 70%;">
+            <p style="font-size: 18px; font-weight: 400; color: white;">
+            NetSecurityFlo is a Managed Network and Security Company, that is
+            proven to detect network and cyber threats faster and precise across
+            physical, digital and cloud infrastructure. We provide round the
+            clock monitoring, detection and response to identify threats before a
+            brech occurs. We provide consulting services for network and security infrastructure.
+        </p>
+        </div>
         </div>
     </div>
 
-    <div class="sec2" style="text-align: left;">
-        <div class="head dblue twhite">
-            Managed Services 
-        </div><br>
-        <br>
-        <div class="dp e" style="justify-content: flex-start;">
-            <img src="mas.png" alt="" style="width: 250px;margin: 25px;">  
-            <div>
-        <p class="sidehead"><b>Firewall Management</b></p>
-        <ul>
-            <li>Validate Firewall Configuration against Services</li>
-            <li>Backup and Restore of Firewall Configurations with Daily/Weekly backup</li>
-            <li>Patch firewall with latest hotfixes and signature updates</li>
-            <li>Upgrade the Firewall with latest release</li>
-            <li>Tweaking firewall Configurations & Troubleshooting any physical or connecitvity issues through firewalls</li>
-            <li>Work with vendor to fix any hardware or software issues</li>
-        </ul>
-            </div>
-        </div>
-            <div class="dp fe" style="justify-content: flex-start;">
-             <img src="mas.png" alt="" style="width: 250px;margin: 25px;">   
-            <div>
-             <p class="sidehead"><b>Network Management</b></p>
-             <ul>
-                 <li>Network Design & Architect custom Solution</li>
-                 <li>Network Automation</li>
-                 <li>Network Monitor</li>
-                 <li>Network Vulnerability Assessment</li>
-             </ul>
-             </div>
-            </div>
-             <div class="dp e" style="justify-content: flex-start;">
-                <img src="mas.png" alt="" style="width: 250px; margin: 25px;">  
-                <div>
-                    <p class="sidehead"><b>Other Managed Services</b></p>
-             <ul>
-                 <li>SDWAN Design & Solution</li>
-                 <li>DDOS & Cloud Security Service</li>
-                 <li>Network Testing and Validation Solution</li>
-                 <li>Design Customer specific environment and test all the services</li>
-             </ul>
-        </div>
-    </div>
-    </div>
-    </div>
+    
 
     <div class="footer">
         <img src="logo.png" alt="" style="width: 75px;margin-bottom: 10px;">
@@ -166,6 +149,15 @@
             © NetSecurityFlo 2022
         </div>
     </div>
+
+
+
+
+
+
+
+
+
 
 
     <script>
