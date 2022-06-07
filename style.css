@@ -420,6 +420,7 @@ nav{
     padding-right: 20px;
     width: fit-content;
     z-index: 9;
+    background-color: rgba(0, 0, 0, 0.67);
 }
 
 
@@ -493,6 +494,7 @@ input[type=text], select, textarea {
     /* border-radius: 9px; */
     font-weight: bold;
     align-items: flex-start;
+    color: #FFB31D;
 }
 
 .twhite{
