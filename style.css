@@ -128,6 +128,63 @@ html{
     max-width: 100vw;
 }
 
+.socf{
+  background: url("socf.jpg")!important;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.frontpage{
+  background: url("Front_page.jpg")!important;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.au{
+  background: url("aboutus.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.hero{
+  background: url("static.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.tain{
+  background: url("Training.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.netnoc{
+  background: url("netnoc.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.masn{
+  background: url("masn.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+
 .topnav a {
   float: left;
   display: block;
@@ -196,13 +253,13 @@ html{
         display: none;
       }
 
-    .hero{
+    /* .hero{
         background: url("background.png");
     }
 
     .ahero{
         background: url("server_background.png");
-    }
+    } */
 
     .pl25{
         padding-right: 0px;
@@ -293,7 +350,8 @@ html{
     align-items: center;
     justify-content: space-evenly;
     display: flex;
-    
+    padding-top: 25px;
+    padding-bottom: 25px;
     flex-wrap: wrap;
 
 }
@@ -420,7 +478,7 @@ nav{
     padding-right: 20px;
     width: fit-content;
     z-index: 9;
-    background-color: rgba(0, 0, 0, 0.67);
+    background-color: rgba(0, 0, 0, 0.69);
 }
 
 
@@ -510,6 +568,7 @@ input[type=text], select, textarea {
 .b2{
     background-color: #222;
     padding: 15px;
+    border-radius: 12px;
 }
 
 .tb2{
