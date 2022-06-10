@@ -132,15 +132,16 @@ html{
   background: url("socf.jpg")!important;
   background-repeat: no-repeat;
   background-position: center; 
-  background-repeat: no-repeat; 
+  
   background-size: cover;
+  height: 75vh!important;
+  min-height: 0px!important;
 }
 
 .frontpage{
   background: url("Front_page.webp")!important;
   background-repeat: no-repeat;
   background-position: center; 
-  background-repeat: no-repeat; 
   background-size: cover;
 }
 
@@ -148,7 +149,6 @@ html{
   background: url("aboutus.webp");
   background-repeat: no-repeat;
   background-position: center; 
-  background-repeat: no-repeat; 
   background-size: cover;
 }
 
@@ -156,32 +156,36 @@ html{
   background: url("static.webp");
   background-repeat: no-repeat;
   background-position: center; 
-  background-repeat: no-repeat; 
   background-size: cover;
+  height: 75vh!important;
+  min-height: 0px!important;
 }
 
 .tain{
   background: url("Training.jpg");
   background-repeat: no-repeat;
   background-position: center; 
-  background-repeat: no-repeat; 
   background-size: cover;
+  height: 75vh!important;
+  min-height: 0px!important;
 }
 
 .netnoc{
   background: url("netnoc.jpg");
   background-repeat: no-repeat;
   background-position: center; 
-  background-repeat: no-repeat; 
   background-size: cover;
+  height: 75vh!important;
+  min-height: 0px!important;
 }
 
 .masn{
   background: url("masn.png");
   background-repeat: no-repeat;
   background-position: center; 
-  background-repeat: no-repeat; 
   background-size: cover;
+  height: 75vh!important;
+  min-height: 0px!important;
 }
 
 
@@ -612,7 +616,7 @@ p.navhead{
 
 .sec2{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     align-items: center;
     justify-content: center;
     display: flex;
